@@ -80,6 +80,50 @@
 					"uvWest": [3, 5, 4, 6],
 					"uvUp": [3, 5, 4, 6]
 				}
+			],
+			"submodels": [
+				{
+					"id": "right_floppy",
+					"invertAxis": "xy",
+					"translate": [3.5, 9.5, -1.5],
+					"rotate": [-162.5, -90, 0],
+					"boxes": [
+						{
+							"coordinates": [-4.3, -2.5, -0.5, 2, 5, 1],
+							"uvNorth": [53, 16, 55, 21],
+							"uvEast": [52, 16, 53, 21],
+							"uvSouth": [56, 16, 58, 21],
+							"uvWest": [55, 16, 56, 21],
+							"uvUp": [55, 16, 53, 15],
+							"uvDown": [57, 15, 55, 16]
+						}
+					]
+				},
+				{
+					"id": "left_floppy",
+					"invertAxis": "xy",
+					"translate": [-3.5, 9.5, -3.5],
+					"rotate": [-162.5, 90, 0],
+					"submodels": [
+						{
+							"id": "head_sub_2",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"mirrorTexture": "u",
+							"boxes": [
+								{
+									"coordinates": [0.3, -2.5, -0.5, 2, 5, 1],
+									"uvNorth": [61, 16, 59, 21],
+									"uvEast": [62, 16, 61, 21],
+									"uvSouth": [64, 16, 62, 21],
+									"uvWest": [59, 16, 58, 21],
+									"uvUp": [59, 16, 61, 15],
+									"uvDown": [61, 15, 63, 16]
+								}
+							]
+						}
+					]
+				}
 			]
 		},
 		{

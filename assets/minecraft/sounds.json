@@ -1,0 +1,168 @@
+{
+    "block.end_gateway.spawn": {
+        "replace": true,
+        "sounds": [
+            "random/explode1",
+            {
+                "name": "random/explode1",
+                "pitch": 1.0,
+                "stream": true
+            },
+			"random/explode2",
+            {
+                "name": "random/explode2",
+                "pitch": 1.0,
+                "stream": true
+            },
+			"random/explode3",
+            {
+                "name": "random/explode3",
+                "pitch": 1.0,
+                "stream": true
+            },
+			"random/explode4",
+            {
+                "name": "random/explode4",
+                "pitch": 1.0,
+                "stream": true
+            }
+        ]
+    },
+	"entity.dragon_fireball.explode": {
+        "replace": true,
+        "sounds": [
+            "random/explode1",
+            {
+                "name": "random/explode1",
+                "pitch": 1.0,
+                "stream": true
+            },
+			"random/explode2",
+            {
+                "name": "random/explode2",
+                "pitch": 1.0,
+                "stream": true
+            },
+			"random/explode3",
+            {
+                "name": "random/explode3",
+                "pitch": 1.0,
+                "stream": true
+            },
+			"random/explode4",
+            {
+                "name": "random/explode4",
+                "pitch": 1.0,
+                "stream": true
+            }
+        ]
+    },
+	"entity.generic.explode": {
+        "replace": true,
+        "sounds": [
+            "random/explode1",
+            {
+                "name": "random/explode1",
+                "pitch": 1.0,
+                "stream": true
+            },
+			"random/explode2",
+            {
+                "name": "random/explode2",
+                "pitch": 1.0,
+                "stream": true
+            },
+			"random/explode3",
+            {
+                "name": "random/explode3",
+                "pitch": 1.0,
+                "stream": true
+            },
+			"random/explode4",
+            {
+                "name": "random/explode4",
+                "pitch": 1.0,
+                "stream": true
+            }
+        ]
+    },
+	"entity.lightning_bolt.impact": {
+        "replace": true,
+        "sounds": [
+            "random/explode1",
+            {
+                "name": "random/explode1",
+                "pitch": 1.0,
+                "stream": true
+            },
+			"random/explode2",
+            {
+                "name": "random/explode2",
+                "pitch": 1.0,
+                "stream": true
+            },
+			"random/explode3",
+            {
+                "name": "random/explode3",
+                "pitch": 1.0,
+                "stream": true
+            },
+			"random/explode4",
+            {
+                "name": "random/explode4",
+                "pitch": 1.0,
+                "stream": true
+            }
+        ]
+    },
+	"entity.sheep.ambient": {
+        "replace": true,
+        "sounds": [
+            "mob/sheep/say1",
+            {
+                "name": "mob/sheep/say1",
+                "pitch": 1.0,
+                "stream": true,
+				"weight": 99
+            },
+			"mob/sheep/say2",
+            {
+                "name": "mob/sheep/say2",
+                "pitch": 1.0,
+                "stream": true,
+				"weight": 99
+            },
+			"mob/sheep/say3",
+            {
+                "name": "mob/sheep/say3",
+                "pitch": 1.0,
+                "stream": true,
+				"weight": 1
+            }
+        ]
+    },
+	"entity.sheep.hurt": {
+        "replace": true,
+        "sounds": [
+            "mob/sheep/hurt2",
+            {
+                "name": "mob/sheep/hurt2",
+                "pitch": 1.0,
+                "stream": true,
+				"weight": 1
+            }
+        ]
+    },
+	"entity.sheep.death": {
+        "replace": true,
+        "sounds": [
+            "mob/sheep/kill",
+            {
+                "name": "mob/sheep/kill",
+                "pitch": 1.0,
+                "stream": true,
+				"weight": 1
+            }
+        ]
+    }
+}
